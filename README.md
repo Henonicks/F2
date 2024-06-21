@@ -1,6 +1,6 @@
 # F2
 
-F2F - Fling 2 Find out! My Portal 2 map as well as the assets used.
+F2F - Fling 2 Find out! Here you can find [My Portal 2 map](https://steamcommunity.com/sharedfiles/filedetails/?id=3269933606)'s VMF as well as the assets used.
 
 > **_NOTE_** You may need [Teamspen's Hammer Addons](https://github.com/TeamSpen210/HammerAddons) to compile this map as they were used for some features.
 
