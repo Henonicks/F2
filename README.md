@@ -2,7 +2,7 @@
 
 F2F - Fling 2 Find out! Here you can find [My Portal 2 map](https://steamcommunity.com/sharedfiles/filedetails/?id=3269933606)'s VMF as well as the assets used.
 
-> **_NOTE_** You may need [Teamspen's Hammer Addons](https://github.com/TeamSpen210/HammerAddons) to compile this map as they were used for some features.
+> **_NOTE:_** You may need [Teamspen's Hammer Addons](https://github.com/TeamSpen210/HammerAddons) to compile this map as they were used for some features.
 
 To use the custom sounds, paste the directories into the `<steamroot>/Portal 2/portal2/` directory. List of those assets:
 
@@ -11,7 +11,6 @@ To use the custom sounds, paste the directories into the `<steamroot>/Portal 2/p
 `materials/nature/toxicslime_movingplane_beneath` - an analog for `toxicslime_movingplane`, seen on the top face from below.
 
 `materials/nature/toxicslime_movingsolid` - a modified version of `toxicslime_movingplane` but compiled as a solid material rather than water.
-
 
 `sound/anonymus/anonymus.wav` - an easter egg sound taken from a meme. To hear it in-game you have to turn on the radio.
 
