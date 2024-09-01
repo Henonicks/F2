@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "42"
+	"mapversion" "43"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,13 +20,13 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "42"
+	"mapversion" "43"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
-	"maxblobcount" "250"
 	solid
 	{
 		"id" "11"
@@ -1386,8 +1386,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-0.336515 -168.232 -647.493]"
-		"look" "[76.431 139.653 -403.13]"
+		"position" "[-0.376152 29.76 -127.536]"
+		"look" "[3.48526 -104.533 249.757]"
 	}
 }
 cordons
