@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "7"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -104,12 +104,7 @@ entity
 	"angles" "-0 0 0"
 	"file" "test/test_instance.vmf"
 	"fixup_style" "0"
-	"replace01" "$stage1 test/stage1.wav"
-	"replace02" "$stage2 test/stage2.wav"
-	"replace03" "$stage2.1 test/stage2.1.wav"
-	"replace04" "$stage3 test/stage3.wav"
-	"replace05" "$stage4 test/stage4.wav"
-	"replace06" "$stage5 test/stage5.wav"
+	"replace01" "$music_type normal"
 	"origin" "0 0 0"
 	editor
 	{
