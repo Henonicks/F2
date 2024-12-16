@@ -22,6 +22,10 @@ To use the custom assets, paste the directories into the `<steamroot>/Portal 2/`
 
 `sound/test/stage2.1.wav` - a cut off loop of Vitrification Order. Plays right after `stage2.wav`.
 
-`sound/test/stage3.wav` - An Accent Beyond, played after the player presses the button in a locked area behind a secret panel with a cube. Tells them to escape the rising goo.
+`sound/test/stage3.wav` - A part of [Locked In Hyperspeed](https://www.youtube.com/watch?v=V2kRGDoaCLY) by [Atelz Vex](https://www.youtube.com/@AtelzVex), played after the player presses the button in the locked area behind a secret panel with a cube. Tells them to escape the rising goo.
 
 `sound/test/stage4.wav` - A cut off loop of Bots Build Bots, played when the player drains the toxic goo.
+
+`scripts/vscripts/velocity/velocity_checker.nut` - A simple script limiting the player's velocity when they go through a portal placed on the angled panel. I have no idea how catapults work so now I have to keep paking (typo intended) this file.
+
+`scripts/game_sounds_music.txt` - A modified version of the same file, adding the custom music. Used to play the soundtrack and enable the Music Volume slider.
