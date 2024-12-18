@@ -1,0 +1,276 @@
+
+"music.test_stage1_normal" // Normal music (F2)
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/normal/stage1.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage2_normal"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/normal/stage2.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage2.1_normal"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/normal/stage2.1.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage3_normal"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/normal/stage3.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage4_normal"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/normal/stage4.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage1_vex" // AtelZ music (F2)
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/vex/stage1.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "1.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage2_vex"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/vex/stage2.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage2.1_vex"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/vex/stage2.1.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage_cube_vex"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"0"
+
+
+	"wave"	"test/vex/stage_cube.mp3"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+
+"music.test_stage3_vex"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		".45"
+
+
+	"wave"	"test/vex/stage3.mp3"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}
+
+"music.test_stage4_vex"
+{
+	"channel"		"CHAN_STATIC"
+	"soundlevel"		"SNDLVL_NONE"
+	"volume"		"1.0"
+
+
+	"wave"	"test/vex/stage4.wav"
+
+
+	"soundentry_version" "2"
+	"operator_stacks"
+	{
+		"update_stack"
+		{
+			"import_stack" 	"update_music_stereo"
+			"volume_fade_out"
+			{
+				"input_max" "3.0"
+				"input_map_min" "0.05"
+			}
+		}
+	}
+}

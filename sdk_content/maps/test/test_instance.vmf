@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "3861"
+	"mapversion" "3869"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -95,7 +95,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "3861"
+	"mapversion" "3869"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -20014,9 +20014,9 @@ world
 				"v" "256 -256 -256"
 				"v" "256 -256 -408"
 			}
-			"material" "TILE/WHITE_WALL_TILE003A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 -1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -20468,9 +20468,9 @@ world
 				"v" "256 -192 -320"
 				"v" "256 -320 -320"
 			}
-			"material" "TILE/WHITE_WALL_TILE003A"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 256] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
 			"lightmapscale" "8"
 			"smoothing_groups" "0"
@@ -103505,21 +103505,10 @@ entity
 	{
 		"OnPass" "secret_panel_1SetAnimation90down0-1"
 		"OnPass" "secret_panel_1_clipDisable0-1"
-		"OnPass" "water_shakeStartShake01"
 		"OnPass" "autosaveSave01"
-		"OnPass" "not_secret_panelSetAnimationramp_90_deg_close0-1"
-		"OnPass" "stage3PlaySound01"
 		"OnPass" "stage2.1StopSound01"
-		"OnPass" "laser_emitterTurnOff0-1"
-		"OnPass" "waterOpen11"
-		"OnPass" "water_movelinearOpen11"
-		"OnPass" "not_secret_panel_lightTurnOn0-1"
-		"OnPass" "jerry_button_sparkStartSpark0-1"
-		"OnPass" "jerry_button_boomExplode01"
-		"OnPass" "arm_clipEnable01"
-		"OnPass" "blocking_armSetAnimation128_out_straight01"
-		"OnPass" "not_secret_panel_sparksStartSpark0-1"
-		"OnPass" "bro_what_are_you_tryna_doEnable60-1"
+		"OnPass" "gofuckyouself_relayTrigger3-1"
+		"OnPass" "gofuckyouselfPlaySound0-1"
 	}
 	"origin" "540 2156 -496"
 	editor
@@ -112253,7 +112242,7 @@ entity
 	"startdisabled" "0"
 	connections
 	{
-		"OnTrigger" "autosaveSaveDangerous0-1"
+		"OnTrigger" "autosaveSave0-1"
 	}
 	solid
 	{
@@ -112390,7 +112379,7 @@ entity
 	"startdisabled" "0"
 	connections
 	{
-		"OnTrigger" "autosaveSaveDangerous0-1"
+		"OnTrigger" "autosaveSave0-1"
 		"OnTrigger" "not_secret_panel_lightTurnOff0-1"
 		"OnTrigger" "not_secret_panel_sparksStopSpark0-1"
 	}
@@ -113623,7 +113612,7 @@ entity
 	connections
 	{
 		"OnStartTouch" "fadeFadeReverse0-1"
-		"OnStartTouch" "autosaveSaveDangerous0-1"
+		"OnStartTouch" "autosaveSave0-1"
 		"OnStartTouch" "stage1StopSound01"
 	}
 	solid
@@ -126973,6 +126962,7 @@ entity
 	"id" "269426"
 	"classname" "env_explosion"
 	"fireballsprite" "sprites/zerogxplode.spr"
+	"ignoredEntity" "timing_dropper-cube_dropper_box"
 	"iMagnitude" "80"
 	"iRadiusOverride" "250"
 	"rendermode" "5"
@@ -127385,6 +127375,68 @@ entity
 		"logicalpos" "[0 1500]"
 	}
 }
+entity
+{
+	"id" "276704"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "announcer.evacuationmisc01"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "1250"
+	"spawnflags" "49"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "gofuckyouself"
+	"volstart" "0"
+	"origin" "444 2120 -496"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "276719"
+	"classname" "logic_relay"
+	"StartDisabled" "0"
+	"targetname" "gofuckyouself_relay"
+	connections
+	{
+		"OnTrigger" "bro_what_are_you_tryna_doEnable60-1"
+		"OnTrigger" "water_movelinearOpen11"
+		"OnTrigger" "waterOpen11"
+		"OnTrigger" "not_secret_panel_sparksStartSpark0-1"
+		"OnTrigger" "blocking_armSetAnimation128_out_straight01"
+		"OnTrigger" "arm_clipEnable01"
+		"OnTrigger" "jerry_button_boomExplode01"
+		"OnTrigger" "jerry_button_sparkStartSpark0-1"
+		"OnTrigger" "not_secret_panel_lightTurnOn0-1"
+		"OnTrigger" "laser_emitterTurnOff0-1"
+		"OnTrigger" "stage3PlaySound01"
+		"OnTrigger" "not_secret_panelSetAnimationramp_90_deg_close0-1"
+		"OnTrigger" "water_shakeStartShake01"
+	}
+	"origin" "516 2144 -488"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
 cameras
 {
 	"activecamera" "1"
@@ -127395,8 +127447,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[521.363 2168.19 -481.049]"
-		"look" "[536.88 2157.08 -495.745]"
+		"position" "[356.88 -276.742 -479.774]"
+		"look" "[374.783 -265.558 -491.378]"
 	}
 }
 cordons
