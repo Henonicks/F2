@@ -4,7 +4,8 @@ F2F - Fling 2 Find out! Here you can find [My Portal 2 map](https://steamcommuni
 
 > **_NOTE:_** Unless you're a packing wizard you'll need [Teamspen's Hammer Addons](https://github.com/TeamSpen210/HammerAddons) to pack the custom assets.
 
-To use the custom assets, clone the repository in `<steamroot>/Portal 2/` and install HammerAddons in `<steamroot>`. List of those assets:
+To use the custom assets, clone the repository in `<steamroot>/Portal 2/` and install HammerAddons in `<steamroot>`. Move the `test` folder into `<steamroot>/Portal 2/sdk_content/maps` to compile the map.
+List of the assets:
 
 `materials/nature/toxicslime_movingplane` - used for the top face of toxic slime. This is a modified version of `nature/toxicslime002a` compatible with the `func_water_analog` entity.
 
