@@ -2,9 +2,9 @@
 
 F2F - Fling 2 Find out! Here you can find [My Portal 2 map](https://steamcommunity.com/sharedfiles/filedetails/?id=3269933606)'s VMF as well as the assets used.
 
-> **_NOTE:_** You may need [Teamspen's Hammer Addons](https://github.com/TeamSpen210/HammerAddons) to compile this map as they were used for some features.
+> **_NOTE:_** Unless you're a packing wizard you'll need [Teamspen's Hammer Addons](https://github.com/TeamSpen210/HammerAddons) to pack the custom assets.
 
-To use the custom assets, paste the directories into the `<steamroot>/Portal 2/` directory. List of those assets:
+To use the custom assets, clone the repository in `<steamroot>/Portal 2/` and install HammerAddons in `<steamroot>`. List of those assets:
 
 `materials/nature/toxicslime_movingplane` - used for the top face of toxic slime. This is a modified version of `nature/toxicslime002a` compatible with the `func_water_analog` entity.
 
@@ -16,16 +16,16 @@ To use the custom assets, paste the directories into the `<steamroot>/Portal 2/`
 
 `sound/disc/disc_create.wav` - the sound that's played when a disc is spawned, the exact same as the charging sound of a portal gun on a pedestal from Portal.
 
-`sound/test/stage1.wav` - music played when the player opens the first door. A cut off loop of Die Cut Laser Dance.
+`sound/test/<vex,normal>/stage1.wav` - music played when the player opens the first door. A cut off loop of Die Cut Laser Dance.
 
-`sound/test/stage2.wav` - intro played after the player enters the big collapsing room, before `stage2.1.wav`. A cut off intro of Vitrification Order that fades in.
+`sound/test/<vex,normal>/stage2.wav` - intro played after the player enters the big collapsing room, before `stage2.1.wav`. A cut off intro of Vitrification Order that fades in.
 
-`sound/test/stage2.1.wav` - a cut off loop of Vitrification Order. Plays right after `stage2.wav`.
+`sound/test/<vex,normal>/stage2.1.wav` - a cut off loop of Vitrification Order. Plays right after `stage2.wav`.
 
-`sound/test/stage3.wav` - A part of [Locked In Hyperspeed](https://www.youtube.com/watch?v=V2kRGDoaCLY) by [Atelz Vex](https://www.youtube.com/@AtelzVex), played after the player presses the button in the locked area behind a secret panel with a cube. Tells them to escape the rising goo.
+`sound/test/<vex,normal>/stage3.wav` - A part of [Locked In Hyperspeed](https://www.youtube.com/watch?v=V2kRGDoaCLY) by [Atelz Vex](https://www.youtube.com/@AtelzVex), played after the player presses the button in the locked area behind a secret panel with a cube. Tells them to escape the rising goo.
 
-`sound/test/stage4.wav` - A cut off loop of Bots Build Bots, played when the player drains the toxic goo.
+`sound/test/<vex,normal>/stage4.wav` - A cut off loop of Bots Build Bots, played when the player drains the toxic goo.
 
 `scripts/vscripts/velocity/velocity_checker.nut` - A simple script limiting the player's velocity when they go through a portal placed on the angled panel. I have no idea how catapults work so now I have to keep paking (typo intended) this file.
 
-`scripts/game_sounds_music.txt` - A modified version of the same file, adding the custom music. Used to play the soundtrack and enable the Music Volume slider.
+`maps/test_level_sounds.txt` - A modified version of `scripts/game_sounds_music.txt` from the `portal2` directory, adding the custom music. Used to play the soundtrack and enable the Music Volume slider.

@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	"$basetexture" "liquids/toxicslime_color"
+	"$bumpmap" "liquids/water_river_normal_sharp"
+//	"$additive" "1"
+//	"$translucent" "1"
+	"$surfaceprop" "slime"
+	"%keywords" "wasteland"
+	"%compilewater" 1
+	"$fogenable" 1
+	"$fogcolor" "{72 70 10}"
+	"$fogstart" 1.00
+	"$fogend" 100.00
+	"$abovewater" 0
+}
