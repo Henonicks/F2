@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "9672"
-	"mapversion" "30"
+	"mapversion" "34"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "30"
+	"mapversion" "34"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34,7 +34,7 @@ entity
 	"classname" "comp_pack"
 	"ctrl_type" "0"
 	"ctrl_value" "1"
-	"soundscript2" "maps/test_level_sounds.txt"
+	"generic1" "scripts/game_sounds_manifest.txt"
 	"origin" "420.904 -256 -512"
 	editor
 	{
